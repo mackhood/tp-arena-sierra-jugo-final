@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class AsignacionesConceptuales extends Asignacion {
 
-    private List<String> notas = new ArrayList<>();
+    private ArrayList<String> notas = new ArrayList<String>();
 
 
  AsignacionesConceptuales ( String descripcion , Criterio criterio) {

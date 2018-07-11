@@ -1,13 +1,15 @@
 package dominio.Asignaciones;
 
+import com.sun.org.apache.xalan.internal.xsltc.util.IntegerArray;
 import dominio.Asignaciones.Asignacion;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class AsignacionesNumericas extends Asignacion {
 
 
-    private List<Integer> notas = new ArrayListList<>();
+    private ArrayList<Integer> notas = new ArrayList<Integer>();
 
 
     AsignacionesNumericas ( String descripcion , Criterio criterio) {
