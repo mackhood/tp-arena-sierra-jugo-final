@@ -8,6 +8,6 @@ public interface Criterio {
 
 
 
-    public boolean cumpleCriterio (Asignacion asignacion);
+    public boolean cumpleCriterio ();
 
 }

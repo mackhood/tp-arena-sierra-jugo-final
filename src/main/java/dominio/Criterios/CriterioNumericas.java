@@ -5,8 +5,8 @@ import dominio.Asignaciones.AsignacionesNumericas;
 
 public class CriterioNumericas implements Criterio {
 
-
-    public boolean cumpleCriterio(Asignacion asignacion) {
-        return false;
+     AsignacionesNumericas asignacionesNumericas;
+    public boolean cumpleCriterio() {
+        return asignacionesNumericas.obtenerListaDeNotas().stream().filter(a-> a >= 6).count() > 1;
     }
 }

@@ -1,6 +1,7 @@
 package dominio.Asignaciones;
 
 import dominio.Asignaciones.Asignacion;
+import dominio.Criterios.Criterio;
 
 import java.util.ArrayList;
 
@@ -16,9 +17,8 @@ public class AsignacionesConceptuales extends Asignacion {
 
  }
 
- public  ArrayList<String> obtenerLista () {
-
-     return notas;
+ public  ArrayList<String> obtenerListaDeNotas () {
+    return notas;
  }
 
 
@@ -29,7 +29,8 @@ public class AsignacionesConceptuales extends Asignacion {
 
     public boolean estaAprobado () {
 
-     return criterio.cumpleCriterio(this);
+     return criterio.cumpleCriterio();
     }
+
 
 }

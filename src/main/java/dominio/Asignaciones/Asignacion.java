@@ -6,7 +6,7 @@ public abstract  class Asignacion {
 
 
 private String descripcion;
-private Criterio criterio;
+public Criterio criterio;
 
 
 public Asignacion (String descripcion, Criterio criterio) {

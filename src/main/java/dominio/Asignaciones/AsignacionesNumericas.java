@@ -2,10 +2,12 @@ package dominio.Asignaciones;
 
 import com.sun.org.apache.xalan.internal.xsltc.util.IntegerArray;
 import dominio.Asignaciones.Asignacion;
+import dominio.Criterios.Criterio;
 import dominio.Criterios.CriterioNumericas;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class AsignacionesNumericas extends Asignacion {
 
@@ -33,7 +35,10 @@ public class AsignacionesNumericas extends Asignacion {
 
     public boolean estaAprobado () {
 
-    return criterio.cumpleCriterio(this);
+    return criterio.cumpleCriterio();
     }
 
+    public ArrayList<Integer> obtenerListaDeNotas() {
+        return notas;
+    }
 }
