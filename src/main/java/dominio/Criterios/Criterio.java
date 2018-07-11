@@ -4,6 +4,6 @@ public interface Criterio {
 
 
 
-    public boolean aprobado ();
+    public boolean cumpleCriterio ();
 
 }
