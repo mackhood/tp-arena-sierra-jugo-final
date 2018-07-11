@@ -1,4 +1,4 @@
-package dominio;
+package dominio.Criterios;
 
 public interface Criterio {
 

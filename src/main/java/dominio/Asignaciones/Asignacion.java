@@ -1,4 +1,6 @@
-package dominio;
+package dominio.Asignaciones;
+
+import dominio.Criterios.Criterio;
 
 public abstract  class Asignacion {
 

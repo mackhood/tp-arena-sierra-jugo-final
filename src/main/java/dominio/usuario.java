@@ -1,5 +1,7 @@
 package dominio;
 
+import dominio.Asignaciones.Asignacion;
+
 import java.util.ArrayList;
 import java.util.List;
 
