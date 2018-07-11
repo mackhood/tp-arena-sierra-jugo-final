@@ -1,4 +1,4 @@
-package model;
+package dominio;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,10 +7,10 @@ import java.util.List;
 
 public class Usuario {
 
-private String nombre;
+    private String nombre;
 
-private String github;
-private List<Asignacion> asignaciones = new ArrayList<> ();
+    private String github;
+    private List<Asignacion> asignaciones = new ArrayList<>();
 
 
     public Usuario(String nombre, String github, Lista<Asignacion> asignaciones) {
@@ -18,4 +18,5 @@ private List<Asignacion> asignaciones = new ArrayList<> ();
         this.nombre = nombre;
         this.github = github;
         this.asignaciones = asignaciones;
-       }
+    }
+}
