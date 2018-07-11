@@ -16,6 +16,12 @@ public class AsignacionesConceptuales extends Asignacion {
 
  }
 
+ public  ArrayList<String> obtenerLista () {
+
+     return notas;
+ }
+
+
     public String ultimaNota () {
 
         return notas.get(notas.size() -1);
@@ -23,7 +29,7 @@ public class AsignacionesConceptuales extends Asignacion {
 
     public boolean estaAprobado () {
 
-     return criterio.cumpleCriterio(this.notas);
+     return criterio.cumpleCriterio(this);
     }
 
 }
