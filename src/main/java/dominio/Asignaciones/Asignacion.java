@@ -9,6 +9,7 @@ public abstract  class Asignacion {
 
 public String descripcion;
 public Criterio criterio;
+public String ultimaNota;
 
 
 public Asignacion (String descripcion, Criterio criterio) {
@@ -20,6 +21,8 @@ public Asignacion (String descripcion, Criterio criterio) {
 public String getDescripcion(){
     return  descripcion;
 }
-
+public String getUltimaNota(){
+        return  ultimaNota;
+    }
 
 }

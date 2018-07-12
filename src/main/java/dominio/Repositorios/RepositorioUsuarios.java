@@ -24,7 +24,9 @@ public class RepositorioUsuarios {
     ArrayList<Asignacion> asignacionFernando = new ArrayList<Asignacion>();
     CriterioNumericas criterioDiseño = new CriterioNumericas();
     AsignacionesNumericas parcialDiseño = new AsignacionesNumericas("Parcial Diseño",criterioDiseño);
-
+     parcialDiseño.agregarNotas(8);
+     parcialDiseño.agregarNotas(9);
+     parcialDiseño.agregarNotas(10);
 
     CriterioConceptuales criterioTPDiseño = new CriterioConceptuales();
     AsignacionesConceptuales tpDiseño = new AsignacionesConceptuales("TP Diseño",criterioTPDiseño);
@@ -32,6 +34,9 @@ public class RepositorioUsuarios {
     asignacionFernando.add(parcialDiseño);
     asignacionFernando.add(tpDiseño);
 
+    tpDiseño.agregarNotaConceptual("M");
+    tpDiseño.agregarNotaConceptual("M");
+    tpDiseño.agregarNotaConceptual("B");
 
 
      Usuario fernando = new Usuario  ("Fernando Sierra","fernandosierra9",asignacionFernando);

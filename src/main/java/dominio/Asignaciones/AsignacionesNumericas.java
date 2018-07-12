@@ -15,6 +15,10 @@ public class AsignacionesNumericas extends Asignacion {
     private ArrayList<Integer> notas = new ArrayList<Integer>();
 
 
+    public void agregarNotas(Integer unaNotas){
+        notas.add(unaNotas);
+        ultimaNota = String.valueOf(unaNotas);
+    }
     public AsignacionesNumericas(String descripcion, Criterio criterio) {
 
         super (descripcion,criterio);
@@ -28,9 +32,14 @@ public class AsignacionesNumericas extends Asignacion {
 
 
 
-    public int ultimaNota () {
+    public String getUltimaNota () {
 
-        return notas.get(notas.size() -1);
+        return String.valueOf( notas.get(notas.size() -1));
+    }
+
+    public String setUltimaNota () {
+
+        return String.valueOf( notas.get(notas.size() -1));
     }
 
     public boolean estaAprobado () {

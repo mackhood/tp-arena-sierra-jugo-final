@@ -31,7 +31,9 @@ public class AsignacionesUsuarioView extends SimpleWindow<EditarDatos> {
                 .allowNull(true);
 
         otroSelector.bindItemsToProperty("usuario.asignaciones").adaptWith(Asignacion.class,"descripcion");
-
+        otroSelector.bindValueToProperty("asignacionSeleccionada");
+        new Label(form).setText("Ultima Nota");
+        new TextBox(form).bindValueToProperty("asignacionSeleccionada.ultimaNota");
 
 
     }

@@ -33,4 +33,8 @@ public class AsignacionesConceptuales extends Asignacion {
     }
 
 
+    public void agregarNotaConceptual(String b) {
+     notas.add(b);
+     ultimaNota =b;
+    }
 }
