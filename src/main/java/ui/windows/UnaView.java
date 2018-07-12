@@ -18,10 +18,10 @@ import org.uqbar.arena.windows.Dialog;
 import org.uqbar.arena.windows.WindowOwner;
 
 //IMPORTANTE: correr con -Djava.system.class.loader=com.uqbar.apo.APOClassLoader
-public class UnaView extends MainWindow<Usuario> {
+public class UnaView extends MainWindow<UnViewModel> {
 
 
-    public UnaView(Usuario model) {
+    public UnaView(UnViewModel model) {
         super(model);
     }
 
@@ -36,12 +36,12 @@ public class UnaView extends MainWindow<Usuario> {
 
         mainPanel.getContainerModelObject().getClass();
         //new Label(mainPanel).setText("form.getContainerModelObject().getClass()");
-        new TextBox(mainPanel).bindValueToProperty("nombre");
+        new TextBox(mainPanel).bindValueToProperty("usuario.nombre");
 
-       //Selector<Asignacion> computerSelector = new Selector<Asignacion>(mainPanel)
-       //      .allowNull(true);
+        //Selector<String> computerSelector = new Selector<String>(mainPanel)
+        //     .allowNull(true);
 
-        //computerSelector.bindItemsToProperty("asignaciones");
+        //computerSelector.bindItemsToProperty("usuario.nombre");
 
         new Label(mainPanel).setText("Asignacion Seleccionada");
         new Label(mainPanel).setText("");
@@ -55,6 +55,6 @@ public class UnaView extends MainWindow<Usuario> {
         */
      }
     public static void main(String[] args) {
-        new UnaView(new RepositorioUsuarios().obtenerUsuario()).startApplication();
+        new UnaView(new UnViewModel(new RepositorioUsuarios().obtenerUsuario())).startApplication();
         }
     }

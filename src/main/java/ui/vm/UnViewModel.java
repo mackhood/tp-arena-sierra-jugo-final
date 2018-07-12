@@ -13,10 +13,18 @@ import java.util.List;
 @Observable
 public class UnViewModel {
 
-    public Usuario usuario;
+    private Usuario usuario;
 
-    public UnViewModel() {
-         usuario = new RepositorioUsuarios().obtenerUsuario();
+    public UnViewModel(Usuario usuario) {
+         this.usuario = usuario;
     }
+
+    public Usuario getUsuario() {
+        return usuario;
+    }
+    public void setUsuario(Usuario usuario){
+        this.usuario = usuario;
+    }
+
 
 }
