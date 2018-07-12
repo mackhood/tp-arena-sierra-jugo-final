@@ -1,6 +1,7 @@
 package dominio.Repositorios;
 
 import dominio.Asignaciones.Asignacion;
+import dominio.Asignaciones.AsignacionesConceptuales;
 import dominio.Asignaciones.AsignacionesNumericas;
 import dominio.Criterios.CriterioConceptuales;
 import dominio.Criterios.CriterioNumericas;
@@ -17,7 +18,7 @@ public class RepositorioUsuarios {
     AsignacionesNumericas parcialDiseño = new AsignacionesNumericas("Parcial Diseño",criterioDiseño);
 
     CriterioConceptuales criterioTPDiseño = new CriterioConceptuales();
-    AsignacionesNumericas tpDiseño = new AsignacionesNumericas("TP Diseño",criterioTPDiseño);
+    AsignacionesConceptuales tpDiseño = new AsignacionesConceptuales("TP Diseño",criterioTPDiseño);
 
     asignacionFernando.add(parcialDiseño);
     asignacionFernando.add(tpDiseño);
