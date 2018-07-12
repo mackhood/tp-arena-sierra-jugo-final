@@ -9,10 +9,10 @@ import org.uqbar.arena.bindings.PropertyAdapter;
 import org.uqbar.arena.layout.VerticalLayout;
 import org.uqbar.arena.widgets.*;
 import org.uqbar.arena.windows.MainWindow;
-
+import dominio.Asignaciones.AsignacionesNumericas;
 import dominio.Usuario;
 import ui.vm.UnViewModel;
-
+import dominio.Criterios.CriterioNumericas;
 import org.uqbar.arena.layout.ColumnLayout;
 import org.uqbar.arena.windows.Dialog;
 import org.uqbar.arena.windows.WindowOwner;
@@ -55,8 +55,12 @@ public class UnaView extends MainWindow<UnViewModel> {
         */
 
 
-        new Button(mainPanel) .setCaption("Ver AsignacionConceptual").onClick(()-> new AsignacionesConceptuales("Laboratorio",new CriterioConceptuales()));
+        new Button(mainPanel).setCaption("Ver AsignacionConceptual").onClick(() -> new AsignacionesConceptuales("Laboratorio", new CriterioConceptuales()));
+
+
+        new Button(mainPanel).setCaption("Ver AsignacionNumerica").onClick(() -> new AsignacionesNumericas("Fisica", new CriterioNumericas()));
     }
+
 
 
 
