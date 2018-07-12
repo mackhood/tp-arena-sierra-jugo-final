@@ -59,7 +59,7 @@ public class UnaView extends MainWindow<UnViewModel> {
 
 
         new Button(mainPanel).setCaption("Modificar Datos Estudiante").onClick( this::modificarDatos);
-        new Button(mainPanel).setCaption("Ver AsignacionNumerica").onClick(() -> new AsignacionesNumericas("Fisica", new CriterioNumericas()));
+        new Button(mainPanel).setCaption("Ver AsignacionNumerica").onClick(this::asignaciones);
     }
 
 
@@ -78,6 +78,10 @@ public class UnaView extends MainWindow<UnViewModel> {
         SimpleWindow<?> modificarDatos= new DatosUsuario(this, this.getModelObject().getUsuarioSeleccionado());
         modificarDatos.open();
         //new Button(mainPanel).setCaption("Modificar Datos Estudiante").onClick(() -> new DatosUsuario(this, this.getModelObject().getUsuarioSeleccionado()).open());
+    }
+    public void asignaciones(){
+        SimpleWindow<?> asignaciones= new AsignacionesUsuarioView(this, this.getModelObject().getUsuarioSeleccionado());
+        asignaciones.open();
     }
 
 }
