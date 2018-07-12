@@ -14,7 +14,7 @@ import java.util.List;
 public class UnViewModel {
 
     private List<Usuario> usuarios;
-    private Usuario usuarioSeleccionado;
+    public Usuario usuarioSeleccionado;
     private UnaView view;
 
     public  UnViewModel( ) {

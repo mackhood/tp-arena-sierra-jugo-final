@@ -24,7 +24,12 @@ public class DatosUsuario extends SimpleWindow<EditarDatos> {
         form.setLayout(new ColumnLayout(2));
 
         new Label(form).setText("Nombre");
-        new TextBox(form).bindValueToProperty("usuario");
+        new TextBox(form).bindValueToProperty("usuario.nombre");
+
+        new Label(form).setText("Github");
+        new TextBox(form).bindValueToProperty("usuario.github");
+
+
 
      }
 

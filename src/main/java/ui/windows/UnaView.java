@@ -12,6 +12,8 @@ import org.uqbar.arena.windows.MainWindow;
 import dominio.Asignaciones.AsignacionesNumericas;
 import dominio.Usuario;
 import org.uqbar.arena.windows.SimpleWindow;
+import org.uqbar.lacar.ui.model.ListBuilder;
+import org.uqbar.lacar.ui.model.bindings.Binding;
 import ui.vm.UnViewModel;
 import dominio.Criterios.CriterioNumericas;
 import org.uqbar.arena.layout.ColumnLayout;
@@ -24,6 +26,7 @@ public class UnaView extends MainWindow<UnViewModel> {
 
     public UnaView(UnViewModel model) {
         super(model);
+        this.model = model;
     }
 
 
@@ -44,6 +47,17 @@ public class UnaView extends MainWindow<UnViewModel> {
 
         computerSelector.bindItemsToProperty("usuarios").adaptWith(Usuario.class,"nombre");
         computerSelector.bindValueToProperty("usuarioSeleccionado");
+
+
+
+        new Label(mainPanel).setText("Asignaciones");
+        Selector<Asignacion> otroSelector = new Selector<Asignacion>(mainPanel)
+                .allowNull(true);
+
+        otroSelector.bindItemsToProperty("usuarioSeleccionado.asignaciones").adaptWith(Asignacion.class,"descripcion");
+
+
+
         new Button(mainPanel).setCaption("Modificar Datos Estudiante").onClick( this::modificarDatos);
         new Button(mainPanel).setCaption("Ver AsignacionNumerica").onClick(() -> new AsignacionesNumericas("Fisica", new CriterioNumericas()));
     }

@@ -6,7 +6,7 @@ import org.uqbar.commons.utils.Observable;
 @Observable
 public class EditarDatos {
     public Usuario usuario;
-    public EditarDatos (Usuario usuarioº ){
+    public EditarDatos (Usuario usuario ){
         this.usuario=usuario;
     }
 

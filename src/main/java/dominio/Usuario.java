@@ -29,7 +29,17 @@ public class Usuario {
     public String nombre() {
         return nombre;
     }
+
+
     public  List<Asignacion>  getAsignaciones() {
         return asignaciones;
+    }
+
+    public String getGithub() {
+        return github;
+    }
+
+    public void setGithub(String github) {
+        this.github = github;
     }
 }
