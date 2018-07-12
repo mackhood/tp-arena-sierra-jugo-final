@@ -2,8 +2,8 @@ package ui.windows;
 
 import dominio.Asignaciones.Asignacion;
 import dominio.Repositorios.RepositorioUsuarios;
-
-
+import dominio.Asignaciones.AsignacionesConceptuales;
+import dominio.Criterios.CriterioConceptuales;
 import org.uqbar.arena.bindings.ObservableProperty;
 import org.uqbar.arena.bindings.PropertyAdapter;
 import org.uqbar.arena.layout.VerticalLayout;
@@ -53,7 +53,13 @@ public class UnaView extends MainWindow<UnViewModel> {
                 .setCaption("Modificar Datos") //
                 .onClick(() -> new DatosUsuario(this,new UnViewModel()).actualizarDatos());
         */
-     }
+
+
+        new Button(mainPanel) .setCaption("Ver AsignacionConceptual").onClick(()-> new AsignacionesConceptuales("Laboratorio",new CriterioConceptuales()));
+    }
+
+
+
     public static void main(String[] args) {
         new UnaView(new UnViewModel(new RepositorioUsuarios().obtenerUsuario())).startApplication();
         }
