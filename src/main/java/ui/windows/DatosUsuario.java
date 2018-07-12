@@ -1,43 +1,38 @@
-/*package ui.windows;
-
-import dominio.Asignaciones.Asignacion;
-import dominio.Repositorios.RepositorioUsuarios;
-
-
-import org.uqbar.arena.bindings.ObservableProperty;
-import org.uqbar.arena.bindings.PropertyAdapter;
-import org.uqbar.arena.layout.VerticalLayout;
-import org.uqbar.arena.widgets.*;
-import org.uqbar.arena.windows.MainWindow;
-
-import dominio.Usuario;
-import org.uqbar.arena.windows.SimpleWindow;
-import ui.vm.UnViewModel;
+package ui.windows;
 
 import org.uqbar.arena.layout.ColumnLayout;
-import org.uqbar.arena.widgets.Panel;
+import org.uqbar.arena.widgets.*;
 import org.uqbar.arena.windows.Dialog;
+import org.uqbar.arena.windows.SimpleWindow;
 import org.uqbar.arena.windows.WindowOwner;
 
-//IMPORTANTE: correr con -Djava.system.class.loader=com.uqbar.apo.APOClassLoader
-public class DatosUsuario extends SimpleWindow<UnViewModel> {
+import dominio.Usuario;
+import ui.vm.EditarDatos;
 
+public class DatosUsuario extends SimpleWindow<EditarDatos> {
 
-    public DatosUsuario(WindowOwner parent, UnViewModel model) {
-        super(parent, model);
+    public Usuario usuario;
+    public DatosUsuario(WindowOwner owner, Usuario usuarioSeleccionado) {
+          super(owner, new EditarDatos(usuarioSeleccionado));
+          this.usuario=usuarioSeleccionado;
     }
 
     @Override
-    protected void addActions(Panel panel) {
-        new Button(panel)
-                .setCaption("ActualizarDatos")
-                .onClick(this::actualizarDatos);
-    }
+    protected void createFormPanel(Panel mainPanel) {
+        Panel form = new Panel(mainPanel);
+
+        form.setLayout(new ColumnLayout(2));
+
+        new Label(form).setText("Nombre");
+        new TextBox(form).bindValueToProperty("usuario");
+
+     }
 
     @Override
-    protected void createFormPanel(Panel panel) {
-
+    protected void addActions(Panel actions) {
+        //new Button(actions).setCaption("Aceptar").onClick(this::accept).setAsDefault();
+        //new Button(actions).setCaption("Cancelar").onClick(this::cancel);
     }
+
 
 }
-*/

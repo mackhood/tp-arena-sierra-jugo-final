@@ -11,6 +11,7 @@ import org.uqbar.arena.widgets.*;
 import org.uqbar.arena.windows.MainWindow;
 import dominio.Asignaciones.AsignacionesNumericas;
 import dominio.Usuario;
+import org.uqbar.arena.windows.SimpleWindow;
 import ui.vm.UnViewModel;
 import dominio.Criterios.CriterioNumericas;
 import org.uqbar.arena.layout.ColumnLayout;
@@ -19,7 +20,7 @@ import org.uqbar.arena.windows.WindowOwner;
 
 //IMPORTANTE: correr con -Djava.system.class.loader=com.uqbar.apo.APOClassLoader
 public class UnaView extends MainWindow<UnViewModel> {
-
+    public UnViewModel model;
 
     public UnaView(UnViewModel model) {
         super(model);
@@ -42,22 +43,8 @@ public class UnaView extends MainWindow<UnViewModel> {
              .allowNull(true);
 
         computerSelector.bindItemsToProperty("usuarios").adaptWith(Usuario.class,"nombre");
-
-        new Label(mainPanel).setText("Asignacion Seleccionada");
-        new Label(mainPanel).setText("");
-
-        new Label(mainPanel).setText("Asginacion");
-//        new Label(form).bindValueToProperty("asignacion.descripcion");
-
-       /* new Button(mainPanel) //
-                .setCaption("Modificar Datos") //
-                .onClick(() -> new DatosUsuario(this,new UnViewModel()).actualizarDatos());
-        */
-
-
-        new Button(mainPanel).setCaption("Ver AsignacionConceptual").onClick(() -> new AsignacionesConceptuales("Laboratorio", new CriterioConceptuales()));
-
-
+        computerSelector.bindValueToProperty("usuarioSeleccionado");
+        new Button(mainPanel).setCaption("Modificar Datos Estudiante").onClick( this::modificarDatos);
         new Button(mainPanel).setCaption("Ver AsignacionNumerica").onClick(() -> new AsignacionesNumericas("Fisica", new CriterioNumericas()));
     }
 
@@ -65,6 +52,18 @@ public class UnaView extends MainWindow<UnViewModel> {
 
 
     public static void main(String[] args) {
+
          new UnaView(new UnViewModel()).startApplication();
     }
+
+    public void model(UnViewModel unViewModel) {
+        model = unViewModel;
+    }
+    public void modificarDatos(){
+
+        SimpleWindow<?> modificarDatos= new DatosUsuario(this, this.getModelObject().getUsuarioSeleccionado());
+        modificarDatos.open();
+        //new Button(mainPanel).setCaption("Modificar Datos Estudiante").onClick(() -> new DatosUsuario(this, this.getModelObject().getUsuarioSeleccionado()).open());
+    }
+
 }
