@@ -1,4 +1,4 @@
-package ui.windows;
+/*package ui.windows;
 
 import dominio.Asignaciones.Asignacion;
 import dominio.Repositorios.RepositorioUsuarios;
@@ -38,8 +38,6 @@ public class DatosUsuario extends SimpleWindow<UnViewModel> {
     protected void createFormPanel(Panel panel) {
 
     }
-    public void actualizarDatos() {
-        MainWindow<?> dialog = new UnaView();
-        dialog.open();
-    }
+
 }
+*/

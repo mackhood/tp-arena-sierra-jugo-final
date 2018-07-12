@@ -29,4 +29,7 @@ public class Usuario {
     public String nombre() {
         return nombre;
     }
+    public  List<Asignacion>  asignacions() {
+        return asignaciones;
+    }
 }
