@@ -65,6 +65,8 @@ public class UnaView extends MainWindow<UnViewModel> {
 
 
     public static void main(String[] args) {
-        new UnaView(new UnViewModel(new RepositorioUsuarios().obtenerUsuario())).startApplication();
-        }
+        ( new UnaView(new UnViewModel(new RepositorioUsuarios().obtenerUsuario())).startApplication();
+
+
+
     }
