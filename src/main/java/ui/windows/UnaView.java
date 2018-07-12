@@ -36,12 +36,12 @@ public class UnaView extends MainWindow<UnViewModel> {
 
         mainPanel.getContainerModelObject().getClass();
         //new Label(mainPanel).setText("form.getContainerModelObject().getClass()");
-        new TextBox(mainPanel).bindValueToProperty("usuario.nombre");
+        //new TextBox(mainPanel).bindValueToProperty("usuario.nombre");
 
-        Selector<Asignacion> computerSelector = new Selector<Asignacion>(mainPanel)
+        Selector<Usuario> computerSelector = new Selector<Usuario>(mainPanel)
              .allowNull(true);
 
-        computerSelector.bindItemsToProperty("usuario.asignaciones");
+        computerSelector.bindItemsToProperty("usuarios").adaptWith(Usuario.class,"nombre");
 
         new Label(mainPanel).setText("Asignacion Seleccionada");
         new Label(mainPanel).setText("");
@@ -65,8 +65,6 @@ public class UnaView extends MainWindow<UnViewModel> {
 
 
     public static void main(String[] args) {
-        ( new UnaView(new UnViewModel(new RepositorioUsuarios().obtenerUsuario())).startApplication();
-
-
-
+         new UnaView(new UnViewModel()).startApplication();
     }
+}

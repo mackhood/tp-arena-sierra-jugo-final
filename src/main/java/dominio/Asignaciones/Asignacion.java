@@ -7,7 +7,7 @@ import org.uqbar.commons.utils.Observable;
 public abstract  class Asignacion {
 
 
-private String descripcion;
+public String descripcion;
 public Criterio criterio;
 
 
@@ -16,6 +16,9 @@ public Asignacion (String descripcion, Criterio criterio) {
     this.descripcion=descripcion;
     this.criterio=criterio;
 
+}
+public String getDescripcion(){
+    return  descripcion;
 }
 
 

@@ -34,8 +34,10 @@ public class RepositorioUsuarios {
 
 
 
-     Usuario Fernando = new Usuario  ("Fernando Sierra","fernandosierra9",asignacionFernando);
-    lista.add(Fernando );
+     Usuario fernando = new Usuario  ("Fernando Sierra","fernandosierra9",asignacionFernando);
+
+     lista = new ArrayList<>();
+     lista.add(fernando );
 
 
     ArrayList<Asignacion> asignacionGerman = new ArrayList<Asignacion>();
@@ -47,8 +49,10 @@ public class RepositorioUsuarios {
     asignacionGerman.add(parcialAnalisis);
     asignacionGerman.add(parcialDiseño);
     asignacionGerman.add(tpDiseño);
-    asignacionFernando.add(parcialAnalisis);
+    asignacionGerman.add(parcialAnalisis);
 
+    Usuario german = new Usuario  ("German Jugo","mackhood",asignacionGerman);
+    lista.add(german);
     return lista;
     }
 
