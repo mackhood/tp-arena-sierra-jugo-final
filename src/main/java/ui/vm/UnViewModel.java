@@ -15,7 +15,7 @@ public class UnViewModel {
 
     private Usuario usuario;
 
-    public UnViewModel(Usuario usuario) {
+    public  UnViewModel(Usuario usuario) {
          this.usuario = usuario;
     }
 

@@ -10,7 +10,7 @@ public class AsignacionesConceptuales extends Asignacion {
     private ArrayList<String> notas = new ArrayList<String>();
 
 
- public AsignacionesConceptuales(String descripcion, Criterio criterio) {
+ AsignacionesConceptuales ( String descripcion , Criterio criterio) {
 
      super (descripcion,criterio);
 
