@@ -8,14 +8,23 @@ import dominio.Criterios.CriterioNumericas;
 import dominio.Usuario;
 import org.uqbar.commons.utils.Observable;
 
-import java.util.ArrayList;
+import java.util.*;
 
 @Observable
 public class RepositorioUsuarios {
-    public Usuario obtenerUsuario() {
+
+
+  List<Usuario> lista;
+
+    public  List<Usuario> obtenerUsuario() {
+
+
+
+
     ArrayList<Asignacion> asignacionFernando = new ArrayList<Asignacion>();
     CriterioNumericas criterioDiseño = new CriterioNumericas();
     AsignacionesNumericas parcialDiseño = new AsignacionesNumericas("Parcial Diseño",criterioDiseño);
+
 
     CriterioConceptuales criterioTPDiseño = new CriterioConceptuales();
     AsignacionesConceptuales tpDiseño = new AsignacionesConceptuales("TP Diseño",criterioTPDiseño);
@@ -23,7 +32,25 @@ public class RepositorioUsuarios {
     asignacionFernando.add(parcialDiseño);
     asignacionFernando.add(tpDiseño);
 
-    return new Usuario("Fernando Sierra","fernandosierra9",asignacionFernando);
+
+
+     Usuario Fernando = new Usuario  ("Fernando Sierra","fernandosierra9",asignacionFernando);
+    lista.add(Fernando );
+
+
+    ArrayList<Asignacion> asignacionGerman = new ArrayList<Asignacion>();
+    CriterioConceptuales criterioLaboratorio = new CriterioConceptuales();
+    AsignacionesConceptuales laboratorio = new AsignacionesConceptuales("Laboratorio", criterioLaboratorio);
+   CriterioNumericas criterioParcialAnalisis = new CriterioNumericas();
+   AsignacionesNumericas parcialAnalisis = new AsignacionesNumericas("parcialAnalisis",criterioParcialAnalisis);
+    asignacionGerman.add(laboratorio);
+    asignacionGerman.add(parcialAnalisis);
+    asignacionGerman.add(parcialDiseño);
+    asignacionGerman.add(tpDiseño);
+    asignacionFernando.add(parcialAnalisis);
+
+    return lista;
     }
 
 }
+
