@@ -15,7 +15,7 @@ public class AsignacionesNumericas extends Asignacion {
     private ArrayList<Integer> notas = new ArrayList<Integer>();
 
 
-    AsignacionesNumericas ( String descripcion , Criterio criterio) {
+    public AsignacionesNumericas(String descripcion, Criterio criterio) {
 
         super (descripcion,criterio);
 

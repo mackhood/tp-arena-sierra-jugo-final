@@ -1,4 +1,4 @@
-import org.uqbar.arena.Application;
+/**import org.uqbar.arena.Application;
 import org.uqbar.arena.windows.Window;
 
 import model.Fixture;
@@ -22,5 +22,5 @@ public class NotasAplicacion  extends Application{
 
 
 
-
+*/
 

@@ -1,7 +1,9 @@
 package dominio.Asignaciones;
 
 import dominio.Criterios.Criterio;
+import org.uqbar.commons.utils.Observable;
 
+@Observable
 public abstract  class Asignacion {
 
 
