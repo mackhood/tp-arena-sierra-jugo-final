@@ -9,8 +9,8 @@ public class UnViewModel {
 
     private Usuario usuario;
 
-    public us(UnModel unModel) {
-        this.unModel = unModel;
+    public UnViewModel(Usuario usuario) {
+        this.usuario = usuario;
     }
 
 }
