@@ -21,6 +21,7 @@ public class AsignacionesUsuarioView extends SimpleWindow<EditarDatos> {
 
     @Override
     protected void createFormPanel(Panel mainPanel) {
+        setTitle("Asignaciones de un Usuario");
         Panel form = new Panel(mainPanel);
 
         form.setLayout(new ColumnLayout(2));
@@ -32,8 +33,10 @@ public class AsignacionesUsuarioView extends SimpleWindow<EditarDatos> {
 
         otroSelector.bindItemsToProperty("usuario.asignaciones").adaptWith(Asignacion.class,"descripcion");
         otroSelector.bindValueToProperty("asignacionSeleccionada");
+
         new Label(form).setText("Ultima Nota");
-        new TextBox(form).bindValueToProperty("asignacionSeleccionada.ultimaNota");
+        new Label(form).bindValueToProperty("asignacionSeleccionada.ultimaNota");
+
 
 
     }

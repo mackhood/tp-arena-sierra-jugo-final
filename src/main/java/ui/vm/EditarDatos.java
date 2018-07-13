@@ -8,6 +8,9 @@ import org.uqbar.commons.utils.Observable;
 public class EditarDatos {
     public Usuario usuario;
     public Asignacion asignacionSeleccionada;
+    public String nombre;
+    public String github;
+
 
     public EditarDatos (Usuario usuario ){
         this.usuario=usuario;
@@ -18,6 +21,22 @@ public class EditarDatos {
     }
     public Usuario getUsuario() {
         return usuario;
+    }
+
+    public void setNombre(String nombre){
+        this.nombre = nombre;
+        this.usuario.setNombre(nombre);
+    }
+    public String getNombre() {
+         return usuario.getNombre();
+    }
+
+    public void setGithub(String github){
+        this.github = github;
+        this.usuario.setGithub(github);
+    }
+    public String getGithub() {
+        return usuario.getGithub();
     }
 
     public Asignacion getAsignacionSeleccionada() {

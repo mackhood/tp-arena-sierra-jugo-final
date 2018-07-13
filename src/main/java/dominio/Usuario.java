@@ -42,4 +42,12 @@ public class Usuario {
     public void setGithub(String github) {
         this.github = github;
     }
+
+    public void setNombre(String nombre) {
+        this.nombre=nombre;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
 }

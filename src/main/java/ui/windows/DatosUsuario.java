@@ -19,15 +19,16 @@ public class DatosUsuario extends SimpleWindow<EditarDatos> {
 
     @Override
     protected void createFormPanel(Panel mainPanel) {
+        setTitle("Datos Personales Usuario");
         Panel form = new Panel(mainPanel);
 
         form.setLayout(new ColumnLayout(2));
 
         new Label(form).setText("Nombre");
-        new TextBox(form).bindValueToProperty("usuario.nombre");
+        new TextBox(form).bindValueToProperty("nombre");
 
         new Label(form).setText("Github");
-        new TextBox(form).bindValueToProperty("usuario.github");
+        new TextBox(form).bindValueToProperty("github");
 
 
 
