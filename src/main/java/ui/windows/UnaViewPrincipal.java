@@ -21,24 +21,25 @@ public class UnaViewPrincipal extends MainWindow<UnViewModel> {
     @Override
     public void createContents(Panel mainPanel) {
         setTitle("Datos de un Usuario");
-        mainPanel.setLayout(new VerticalLayout());
-        new Label(mainPanel).setText("Datos de Tareas");
+        Panel form = new Panel(mainPanel);
+        form.setLayout(new VerticalLayout());
+        new Label(form).setText("Datos de Tareas");
 
-        mainPanel.setLayout(new ColumnLayout(2));
+        form.setLayout(new ColumnLayout(2));
 
-        mainPanel.getContainerModelObject().getClass();
-        Selector<Usuario> computerSelector = new Selector<Usuario>(mainPanel).allowNull(true);
+        form.getContainerModelObject().getClass();
+        Selector<Usuario> computerSelector = new Selector<Usuario>(form).allowNull(true);
 
         computerSelector.bindItemsToProperty("usuarios").adaptWith(Usuario.class,"nombre");
         computerSelector.bindValueToProperty("usuarioSeleccionado");
 
 
-        new Label(mainPanel).setText("Asignaciones");
-        Selector<Asignacion> otroSelector = new Selector<Asignacion>(mainPanel).allowNull(true);
+        new Label(form).setText("Asignaciones");
+        Selector<Asignacion> otroSelector = new Selector<Asignacion>(form).allowNull(true);
         otroSelector.bindItemsToProperty("usuarioSeleccionado.asignaciones").adaptWith(Asignacion.class,"descripcion");
 
-        new Button(mainPanel).setCaption("Modificar Datos Estudiante").onClick( this::modificarDatos);
-        new Button(mainPanel).setCaption("Ver Asignacion").onClick(this::asignaciones);
+        new Button(form).setCaption("Modificar Datos Estudiante").onClick( this::modificarDatos);
+        new Button(form).setCaption("Ver Descripciones Asignacion").onClick(this::asignaciones);
 
     }
     public static void main(String[] args) {

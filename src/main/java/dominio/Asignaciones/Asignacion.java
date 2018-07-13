@@ -33,9 +33,8 @@ public Asignacion (String descripcion, Criterio criterio) {
 
     public void actualizarEstado(){
         this.estado = "Desaprobado";
-
         if(criterio.cumpleCriterio()){
-            estado = "Desaprobado";
+            estado = "Aprobado";
         }
 
     }
