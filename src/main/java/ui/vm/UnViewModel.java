@@ -16,24 +16,17 @@ public class UnViewModel {
     private List<Usuario> usuarios;
     public Usuario usuarioSeleccionado;
 
-
-    public  UnViewModel( ) {
-        this.usuarios = new RepositorioUsuarios().obtenerUsuarios();
-
-    }
+    public  UnViewModel( ) {this.usuarios = new RepositorioUsuarios().obtenerUsuarios(); }
 
     public List<Usuario> getUsuarios() {
         return usuarios;
     }
-
     public void setUsuarios(List<Usuario> usuarios){
         this.usuarios = usuarios;
     }
-
     public Usuario getUsuarioSeleccionado() {
         return usuarioSeleccionado;
     }
-
     public void setUsuarioSeleccionado(Usuario usuarioSeleccionado) {
         this.usuarioSeleccionado = usuarioSeleccionado;
     }

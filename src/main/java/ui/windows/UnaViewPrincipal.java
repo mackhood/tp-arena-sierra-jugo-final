@@ -1,24 +1,14 @@
 package ui.windows;
 
 import dominio.Asignaciones.Asignacion;
-import dominio.Repositorios.RepositorioUsuarios;
-import dominio.Asignaciones.AsignacionesConceptuales;
-import dominio.Criterios.CriterioConceptuales;
-import org.uqbar.arena.bindings.ObservableProperty;
-import org.uqbar.arena.bindings.PropertyAdapter;
 import org.uqbar.arena.layout.VerticalLayout;
 import org.uqbar.arena.widgets.*;
 import org.uqbar.arena.windows.MainWindow;
-import dominio.Asignaciones.AsignacionesNumericas;
 import dominio.Usuario;
 import org.uqbar.arena.windows.SimpleWindow;
-import org.uqbar.lacar.ui.model.ListBuilder;
-import org.uqbar.lacar.ui.model.bindings.Binding;
 import ui.vm.UnViewModel;
-import dominio.Criterios.CriterioNumericas;
 import org.uqbar.arena.layout.ColumnLayout;
-import org.uqbar.arena.windows.Dialog;
-import org.uqbar.arena.windows.WindowOwner;
+
 
 public class UnaViewPrincipal extends MainWindow<UnViewModel> {
 
@@ -37,24 +27,19 @@ public class UnaViewPrincipal extends MainWindow<UnViewModel> {
         mainPanel.setLayout(new ColumnLayout(2));
 
         mainPanel.getContainerModelObject().getClass();
-        Selector<Usuario> computerSelector = new Selector<Usuario>(mainPanel)
-             .allowNull(true);
+        Selector<Usuario> computerSelector = new Selector<Usuario>(mainPanel).allowNull(true);
 
         computerSelector.bindItemsToProperty("usuarios").adaptWith(Usuario.class,"nombre");
         computerSelector.bindValueToProperty("usuarioSeleccionado");
 
 
-
         new Label(mainPanel).setText("Asignaciones");
-        Selector<Asignacion> otroSelector = new Selector<Asignacion>(mainPanel)
-                .allowNull(true);
-
+        Selector<Asignacion> otroSelector = new Selector<Asignacion>(mainPanel).allowNull(true);
         otroSelector.bindItemsToProperty("usuarioSeleccionado.asignaciones").adaptWith(Asignacion.class,"descripcion");
-
-
 
         new Button(mainPanel).setCaption("Modificar Datos Estudiante").onClick( this::modificarDatos);
         new Button(mainPanel).setCaption("Ver Asignacion").onClick(this::asignaciones);
+
     }
     public static void main(String[] args) {
 

@@ -6,7 +6,6 @@ import org.uqbar.arena.layout.ColumnLayout;
 import org.uqbar.arena.widgets.Label;
 import org.uqbar.arena.widgets.Panel;
 import org.uqbar.arena.widgets.Selector;
-import org.uqbar.arena.widgets.TextBox;
 import org.uqbar.arena.windows.SimpleWindow;
 import org.uqbar.arena.windows.WindowOwner;
 import ui.vm.EditarDatosModel;
@@ -32,12 +31,12 @@ public class AsignacionesUsuarioView extends SimpleWindow<EditarDatosModel> {
                 .allowNull(true);
 
         otroSelector.bindItemsToProperty("usuario.asignaciones").adaptWith(Asignacion.class,"descripcion");
-        otroSelector.bindValueToProperty("asignacionSeleccionada");
+        otroSelector.bindValueToProperty("asignacionSeleccionadaDeUnUsuario");
 
         new Label(form).setText("Ultima Nota");
-        new Label(form).bindValueToProperty("asignacionSeleccionada.ultimaNota");
+        new Label(form).bindValueToProperty("asignacionSeleccionadaDeUnUsuario.ultimaNota");
         new Label (form).setText("Estado");
-        new Label(form).bindValueToProperty("asignacionSeleccionada.estado");
+        new Label(form).bindValueToProperty("asignacionSeleccionadaDeUnUsuario.estado");
 
 
 

@@ -3,16 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="c949d89b-69b5-4b70-8b3b-1a1ee86cf21c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioUsuarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioUsuarios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ui/vm/EditarDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/vm/EditarDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/Asignacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/Asignacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesConceptuales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesConceptuales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesNumericas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesNumericas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioConceptuales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioConceptuales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioAsignacionesConceptuales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioAsignacionesNumericas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/vm/EditarDatosModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/vm/EditarDatosModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ui/vm/UnViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/vm/UnViewModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ui/windows/AsignacionesUsuarioView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/windows/AsignacionesUsuarioView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ui/windows/DatosUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/windows/DatosUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ui/windows/UnaView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/windows/UnaViewPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/vm/EditarDatos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/vm/EditarDatos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/windows/DatosUsuarioView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/windows/DatosUsuarioView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/windows/UnaViewPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/windows/UnaViewPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dominio/Repositorios/RepositorioAsignacionesConceptuales.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dominio/Repositorios/RepositorioAsignacionesNumericas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dominio/Repositorios/RepositorioUsuarios.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/vm/EditarDatosModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/vm/EditarDatosModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ui/vm/UnViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/vm/UnViewModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ui/windows/AsignacionesUsuarioView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/windows/AsignacionesUsuarioView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui/windows/UnaView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/windows/DatosUsuarioView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/windows/DatosUsuarioView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ui/windows/UnaViewPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ui/windows/UnaViewPrincipal.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,32 +38,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UnaViewPrincipal.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/UnaViewPrincipal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RepositorioUsuarios.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioUsuarios.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#539#551#0" expanded="true" />
-                <element signature="e#632#644#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Criterio.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Criterios/Criterio.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,20 +47,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RepositorioAsignacionesNumericas.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioAsignacionesNumericas.java">
+      <file leaf-file-name="RepositorioUsuarios.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioUsuarios.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+            <state relative-caret-position="302">
+              <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnViewModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ui/vm/UnViewModel.java">
+      <file leaf-file-name="AsignacionesUsuarioView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/AsignacionesUsuarioView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="371">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,8 +74,54 @@
       <file leaf-file-name="CriterioConceptuales.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioConceptuales.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="113" lean-forward="true" selection-start-line="14" selection-start-column="113" selection-end-line="14" selection-end-column="113" />
+            <state relative-caret-position="136">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsginacionInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsginacionInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsignacionesConceptuales.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesConceptuales.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Asignacion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/Asignacion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsignacionesNumericas.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesNumericas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -103,42 +135,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AsignacionesConceptuales.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesConceptuales.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Asignacion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/Asignacion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="29" column="38" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AsignacionesNumericas.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesNumericas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -157,19 +160,23 @@
         <option value="$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioAsignacionesConceptuales.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/windows/RegistrarVentaWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/vm/AsignacionesUsuarioViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesNumericas.java" />
         <option value="$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioNumericas.java" />
         <option value="$PROJECT_DIR$/src/main/java/dominio/Usuario.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioConceptuales.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/Asignacion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesConceptuales.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/windows/AsignacionesUsuarioView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/windows/UnaView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioUsuarios.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/vm/EditarDatos.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/windows/DatosUsuario.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/windows/UnaView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/windows/ModeloInterfaz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/windows/DatosUsuarioView.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/vm/UnViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioUsuarios.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/windows/UnaViewPrincipal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/windows/AsignacionesUsuarioView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/vm/EditarDatosModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioAbstracto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesNumericas.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesConceptuales.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioConceptuales.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/Asignacion.java" />
       </list>
     </option>
   </component>
@@ -187,6 +194,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,9 +307,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -415,53 +422,32 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.32852563" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49924356" weight="0.24038461" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.36384267" side_tool="true" visible="true" weight="0.25641027" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4977307" weight="0.24038461" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.63615733" visible="true" weight="0.25641027" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49848714" weight="0.15544872" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31467474" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.41185898" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.14583333" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32980332" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27083334" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32852563" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32852563" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21474358" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.14583333" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.125" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32852563" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1650641" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27083334" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30937973" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.14583333" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.41185898" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.24038461" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31770045" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -469,34 +455,24 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ui/windows/UnaViewPrincipal.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ui/windows/UnaViewPrincipal.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/vm/UnViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioAsignacionesConceptuales.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioAsignacionesNumericas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
@@ -510,8 +486,6 @@
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#539#551#0" expanded="true" />
-            <element signature="e#632#644#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -735,24 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/uqbar-project/arena-core/3.6.1/arena-core-3.6.1.jar!/org/uqbar/lacar/ui/model/Action.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -760,34 +716,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/DatosUsuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="39" column="6" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/AsignacionesUsuarioView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="77" selection-start-line="39" selection-start-column="77" selection-end-line="39" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/vm/EditarDatos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioAsignacionesConceptuales.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/ModeloInterfaz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
@@ -801,31 +730,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioConceptuales.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioAsignacionesConceptuales.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="113" lean-forward="true" selection-start-line="14" selection-start-column="113" selection-end-line="14" selection-end-column="113" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioNumericas.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/vm/EditarDatosModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="136">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesNumericas.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/DatosUsuarioView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="226">
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesConceptuales.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/UnaViewPrincipal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="748">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/vm/UnViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/AsignacionesUsuarioView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -836,20 +804,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/Asignacion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesNumericas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="38" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesConceptuales.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/vm/UnViewModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioNumericas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="323">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioConceptuales.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsginacionInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioAbstracto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="14" selection-start-line="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/Asignacion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -858,20 +865,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioUsuarios.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#539#551#0" expanded="true" />
-            <element signature="e#632#644#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/UnaViewPrincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+        <state relative-caret-position="302">
+          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

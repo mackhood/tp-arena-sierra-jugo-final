@@ -15,7 +15,7 @@ public String estado;
 public Asignacion (String descripcion, Criterio criterio) {
 
     this.descripcion=descripcion;
-    this.criterio=criterio;
+    this.criterio = criterio;
 
 }
     public String getDescripcion(){
@@ -32,15 +32,18 @@ public Asignacion (String descripcion, Criterio criterio) {
 
 
     public void actualizarEstado(){
-        this.estado = "desaprobado";
-        if (this.estaAprobado()){
-               this.estado = "aprobado";
-        }
-    }
+        this.estado = "Desaprobado";
 
+        if(criterio.cumpleCriterio()){
+            estado = "Desaprobado";
+        }
+
+    }
 
     public String getEstado(){
         this.actualizarEstado();
         return estado;
     }
+
+
 }

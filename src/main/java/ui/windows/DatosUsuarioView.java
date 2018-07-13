@@ -2,12 +2,10 @@ package ui.windows;
 
 import org.uqbar.arena.layout.ColumnLayout;
 import org.uqbar.arena.widgets.*;
-import org.uqbar.arena.windows.Dialog;
 import org.uqbar.arena.windows.SimpleWindow;
 import org.uqbar.arena.windows.WindowOwner;
 
 import dominio.Usuario;
-import ui.vm.EditarDatosModel;
 import ui.vm.EditarDatosModel;
 
 public class DatosUsuarioView extends SimpleWindow<EditarDatosModel> {
@@ -26,10 +24,10 @@ public class DatosUsuarioView extends SimpleWindow<EditarDatosModel> {
         form.setLayout(new ColumnLayout(2));
 
         new Label(form).setText("Nombre");
-        new TextBox(form).bindValueToProperty("nombre");
+        new TextBox(form).bindValueToProperty("usuario.nombre");
 
         new Label(form).setText("Github");
-        new TextBox(form).bindValueToProperty("github");
+        new TextBox(form).bindValueToProperty("usuario.github");
 
 
 

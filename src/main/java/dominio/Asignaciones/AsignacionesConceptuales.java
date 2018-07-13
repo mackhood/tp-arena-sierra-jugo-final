@@ -1,6 +1,5 @@
 package dominio.Asignaciones;
 
-import dominio.Asignaciones.Asignacion;
 import dominio.Criterios.Criterio;
 
 import java.util.ArrayList;
