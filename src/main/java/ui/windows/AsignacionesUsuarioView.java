@@ -9,13 +9,13 @@ import org.uqbar.arena.widgets.Selector;
 import org.uqbar.arena.widgets.TextBox;
 import org.uqbar.arena.windows.SimpleWindow;
 import org.uqbar.arena.windows.WindowOwner;
-import ui.vm.EditarDatos;
+import ui.vm.EditarDatosModel;
 
-public class AsignacionesUsuarioView extends SimpleWindow<EditarDatos> {
+public class AsignacionesUsuarioView extends SimpleWindow<EditarDatosModel> {
 
     public Usuario usuario;
     public AsignacionesUsuarioView(WindowOwner owner, Usuario usuarioSeleccionado) {
-        super(owner, new EditarDatos(usuarioSeleccionado));
+        super(owner, new EditarDatosModel(usuarioSeleccionado));
         this.usuario=usuarioSeleccionado;
     }
 
@@ -37,8 +37,8 @@ public class AsignacionesUsuarioView extends SimpleWindow<EditarDatos> {
         new Label(form).setText("Ultima Nota");
         new Label(form).bindValueToProperty("asignacionSeleccionada.ultimaNota");
         new Label (form).setText("Estado");
-        new TextBox(form).bindValueToProperty("asignacionSeleccionada.estado");
-        //new Label (form).bindValueToProperty("estado");
+        new Label(form).bindValueToProperty("asignacionSeleccionada.estado");
+
 
 
     }

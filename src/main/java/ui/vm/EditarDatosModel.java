@@ -5,15 +5,15 @@ import dominio.Usuario;
 import org.uqbar.commons.utils.Observable;
 
 @Observable
-public class EditarDatos {
+public class EditarDatosModel {
     public Usuario usuario;
-    public Asignacion asignacionSeleccionada;
+    public Asignacion asignacionSeleccionada = null;
     public String nombre;
     public String github;
     public String estado;
 
 
-    public EditarDatos (Usuario usuario ){
+    public EditarDatosModel (Usuario usuario ){
         this.usuario=usuario;
     }
 

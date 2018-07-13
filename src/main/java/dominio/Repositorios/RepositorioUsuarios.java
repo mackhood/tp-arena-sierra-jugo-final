@@ -14,45 +14,52 @@ import java.util.*;
 public class RepositorioUsuarios {
 
 
-  List<Usuario> lista;
+  List<Usuario> lista ;
 
     public  List<Usuario> obtenerUsuarios() {
 
 
-
-
     ArrayList<Asignacion> asignacionFernando = new ArrayList<Asignacion>();
+    ArrayList<Asignacion> asignacionGerman = new ArrayList<Asignacion>();
+
     CriterioNumericas criterioDiseño = new CriterioNumericas();
-    AsignacionesNumericas parcialDiseño = new AsignacionesNumericas("Parcial Diseño",criterioDiseño);
-     parcialDiseño.agregarNotas(8);
-     parcialDiseño.agregarNotas(9);
-     parcialDiseño.agregarNotas(10);
-     criterioDiseño.setAsignacionesNumericas(parcialDiseño);
+    CriterioNumericas criterioParcialAnalisis = new CriterioNumericas();
 
     CriterioConceptuales criterioTPDiseño = new CriterioConceptuales();
+    CriterioConceptuales criterioLaboratorio = new CriterioConceptuales();
+
+    AsignacionesNumericas parcialDiseño = new AsignacionesNumericas("Parcial Diseño",criterioDiseño);
+    AsignacionesNumericas parcialAnalisis = new AsignacionesNumericas("parcialAnalisis",criterioParcialAnalisis);
+
+    AsignacionesConceptuales laboratorio = new AsignacionesConceptuales("Laboratorio", criterioLaboratorio);
     AsignacionesConceptuales tpDiseño = new AsignacionesConceptuales("TP Diseño",criterioTPDiseño);
 
-    criterioTPDiseño.setAsignacionConceptual(tpDiseño);
-    asignacionFernando.add(parcialDiseño);
-    asignacionFernando.add(tpDiseño);
+
+
+    parcialDiseño.agregarNotas(8);
+    parcialDiseño.agregarNotas(9);
+    parcialDiseño.agregarNotas(10);
+
 
     tpDiseño.agregarNotaConceptual("M");
     tpDiseño.agregarNotaConceptual("B");
     tpDiseño.agregarNotaConceptual("B");
 
 
-     Usuario fernando = new Usuario  ("Fernando Sierra","fernandosierra9",asignacionFernando);
+    laboratorio.agregarNotaConceptual("B");
+    //laboratorio.agregarNotaConceptual("M");
 
-    lista = new ArrayList<>();
-    lista.add(fernando );
+    parcialAnalisis.agregarNotas(4);
+    //parcialAnalisis.agregarNotas(3);
+
+    criterioDiseño.setAsignacionesNumericas(parcialDiseño);
+    criterioLaboratorio.setAsignacionConceptual(laboratorio);
+    criterioParcialAnalisis.setAsignacionesNumericas(parcialAnalisis);
     criterioTPDiseño.setAsignacionConceptual(tpDiseño);
 
 
-    ArrayList<Asignacion> asignacionGerman = new ArrayList<Asignacion>();
-    CriterioConceptuales criterioLaboratorio = new CriterioConceptuales();
-    AsignacionesConceptuales laboratorio = new AsignacionesConceptuales("Laboratorio", criterioLaboratorio);
-    CriterioNumericas criterioParcialAnalisis = new CriterioNumericas();
-    AsignacionesNumericas parcialAnalisis = new AsignacionesNumericas("parcialAnalisis",criterioParcialAnalisis);
+    asignacionFernando.add(parcialDiseño);
+    asignacionFernando.add(tpDiseño);
 
     asignacionGerman.add(laboratorio);
     asignacionGerman.add(parcialAnalisis);
@@ -60,8 +67,11 @@ public class RepositorioUsuarios {
     asignacionGerman.add(tpDiseño);
 
 
-    criterioParcialAnalisis.setAsignacionesNumericas(parcialAnalisis);
+    Usuario fernando = new Usuario  ("Fernando Sierra","fernandosierra9",asignacionFernando);
     Usuario german = new Usuario  ("German Jugo","mackhood",asignacionGerman);
+
+    lista =  new ArrayList<Usuario>();
+    lista.add(fernando );
     lista.add(german);
     return lista;
     }

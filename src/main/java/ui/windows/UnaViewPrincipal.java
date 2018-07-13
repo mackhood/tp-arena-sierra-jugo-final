@@ -20,13 +20,11 @@ import org.uqbar.arena.layout.ColumnLayout;
 import org.uqbar.arena.windows.Dialog;
 import org.uqbar.arena.windows.WindowOwner;
 
-//IMPORTANTE: correr con -Djava.system.class.loader=com.uqbar.apo.APOClassLoader
-public class UnaView extends MainWindow<UnViewModel> {
-    public UnViewModel model;
+public class UnaViewPrincipal extends MainWindow<UnViewModel> {
 
-    public UnaView(UnViewModel model) {
+    public UnaViewPrincipal(UnViewModel model) {
         super(model);
-        this.model = model;
+
     }
 
 
@@ -39,9 +37,6 @@ public class UnaView extends MainWindow<UnViewModel> {
         mainPanel.setLayout(new ColumnLayout(2));
 
         mainPanel.getContainerModelObject().getClass();
-        //new Label(mainPanel).setText("form.getContainerModelObject().getClass()");
-        //new TextBox(mainPanel).bindValueToProperty("usuario.nombre");
-
         Selector<Usuario> computerSelector = new Selector<Usuario>(mainPanel)
              .allowNull(true);
 
@@ -61,27 +56,30 @@ public class UnaView extends MainWindow<UnViewModel> {
         new Button(mainPanel).setCaption("Modificar Datos Estudiante").onClick( this::modificarDatos);
         new Button(mainPanel).setCaption("Ver Asignacion").onClick(this::asignaciones);
     }
-
-
-
-
     public static void main(String[] args) {
 
-         new UnaView(new UnViewModel()).startApplication();
+         new UnaViewPrincipal(new UnViewModel()).startApplication();
     }
 
-    public void model(UnViewModel unViewModel) {
-        model = unViewModel;
-    }
+
     public void modificarDatos(){
+        if (this.getModelObject().getUsuarioSeleccionado()!= null){
+            SimpleWindow<?> modificarDatos= new DatosUsuarioView(this, this.getModelObject().getUsuarioSeleccionado());
+            modificarDatos.open();
+        }
+        else{
+            System.out.println("Seleccione un Usuario");
+        }
 
-        SimpleWindow<?> modificarDatos= new DatosUsuario(this, this.getModelObject().getUsuarioSeleccionado());
-        modificarDatos.open();
-        //new Button(mainPanel).setCaption("Modificar Datos Estudiante").onClick(() -> new DatosUsuario(this, this.getModelObject().getUsuarioSeleccionado()).open());
     }
     public void asignaciones(){
-        SimpleWindow<?> asignaciones= new AsignacionesUsuarioView(this, this.getModelObject().getUsuarioSeleccionado());
-        asignaciones.open();
+        if (this.getModelObject().getUsuarioSeleccionado()!= null){
+            SimpleWindow<?> asignaciones= new AsignacionesUsuarioView(this, this.getModelObject().getUsuarioSeleccionado());
+            asignaciones.open();
+        }
+        else{
+            System.out.println("Seleccione un Usuario");
+        }
     }
 
 }

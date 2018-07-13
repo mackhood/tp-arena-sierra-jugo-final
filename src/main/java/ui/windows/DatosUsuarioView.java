@@ -7,13 +7,14 @@ import org.uqbar.arena.windows.SimpleWindow;
 import org.uqbar.arena.windows.WindowOwner;
 
 import dominio.Usuario;
-import ui.vm.EditarDatos;
+import ui.vm.EditarDatosModel;
+import ui.vm.EditarDatosModel;
 
-public class DatosUsuario extends SimpleWindow<EditarDatos> {
+public class DatosUsuarioView extends SimpleWindow<EditarDatosModel> {
 
     public Usuario usuario;
-    public DatosUsuario(WindowOwner owner, Usuario usuarioSeleccionado) {
-          super(owner, new EditarDatos(usuarioSeleccionado));
+    public DatosUsuarioView(WindowOwner owner, Usuario usuarioSeleccionado) {
+          super(owner, new EditarDatosModel(usuarioSeleccionado));
           this.usuario=usuarioSeleccionado;
     }
 
@@ -37,7 +38,7 @@ public class DatosUsuario extends SimpleWindow<EditarDatos> {
     @Override
     protected void addActions(Panel actions) {
         //new Button(actions).setCaption("Aceptar").onClick(this::accept).setAsDefault();
-        //new Button(actions).setCaption("Cancelar").onClick(this::cancel);
+     //   new Button(actions).setCaption("Cancelar").onClick(this::cancel);
     }
 
 
