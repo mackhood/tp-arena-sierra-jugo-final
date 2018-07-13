@@ -18,7 +18,7 @@ public class UnViewModel {
     private UnaView view;
 
     public  UnViewModel( ) {
-        this.usuarios = new RepositorioUsuarios().obtenerUsuario();
+        this.usuarios = new RepositorioUsuarios().obtenerUsuarios();
         this.view = view;
 
     }
@@ -27,7 +27,7 @@ public class UnViewModel {
         return usuarios;
     }
 
-    public void setUsuario(Usuario usuario){
+    public void setUsuarios(List<Usuario> usuarios){
         this.usuarios = usuarios;
     }
 

@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c949d89b-69b5-4b70-8b3b-1a1ee86cf21c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/Asignacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/Asignacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesConceptuales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesConceptuales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesNumericas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesNumericas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioConceptuales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioConceptuales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioNumericas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioNumericas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioUsuarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioUsuarios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ui/vm/EditarDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/vm/EditarDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/vm/UnViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/vm/UnViewModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ui/windows/AsignacionesUsuarioView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/windows/AsignacionesUsuarioView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ui/windows/DatosUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/windows/DatosUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/windows/UnaView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/windows/UnaView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,34 +30,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UnaView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/UnaView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="42" column="71" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AsignacionesNumericas.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesNumericas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="267">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RepositorioUsuarios.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RepositorioUsuarios.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioUsuarios.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+            <state relative-caret-position="100">
+              <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#539#551#0" expanded="true" />
+                <element signature="e#1426#1438#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,17 +56,8 @@
       <file leaf-file-name="AsignacionesConceptuales.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesConceptuales.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnViewModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ui/vm/UnViewModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="37" column="66" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="66" />
+            <state relative-caret-position="199">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,23 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AsignacionesUsuarioView.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/AsignacionesUsuarioView.java">
+      <file leaf-file-name="CriterioConceptuales.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioConceptuales.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatosUsuario.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/DatosUsuario.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+            <state relative-caret-position="238">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -100,34 +77,45 @@
       <file leaf-file-name="EditarDatos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ui/vm/EditarDatos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="35" column="26" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="30" />
+            <state relative-caret-position="182">
+              <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
                 <element signature="e#710#711#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#906#907#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Usuario.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Usuario.java">
+      <file leaf-file-name="CriterioNumericas.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioNumericas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+            <state relative-caret-position="204">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatosUsuario.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/DatosUsuario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#918#919#0" expanded="true" />
-                <element signature="e#939#940#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-                <element signature="e#1014#1015#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnaView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/UnaView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="67" column="2" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,8 +124,17 @@
       <file leaf-file-name="Asignacion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/Asignacion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="335">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsignacionesUsuarioView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/AsignacionesUsuarioView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,32 +160,32 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/dominio/usuario.java" />
         <option value="$PROJECT_DIR$/src/main/java/dominio/Criterios/Criterio.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioConceptuales.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioNumericas.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/vm/prueba.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/windows/prueba.java" />
         <option value="$PROJECT_DIR$/src/main/java/NotasAplicacion.java" />
         <option value="$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioAsignacionesConceptuales.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/windows/RegistrarVentaWindow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/vm/UnViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/vm/AsignacionesUsuarioViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/windows/UnaView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesNumericas.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesConceptuales.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioUsuarios.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/Asignacion.java" />
         <option value="$PROJECT_DIR$/src/main/java/dominio/Usuario.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/vm/EditarDatos.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/windows/DatosUsuario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/windows/UnaView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/vm/UnViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/windows/AsignacionesUsuarioView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/Asignacion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesConceptuales.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesNumericas.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/vm/EditarDatos.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioNumericas.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioConceptuales.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioUsuarios.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="3" />
+    <option name="x" value="24" />
+    <option name="y" value="142" />
     <option name="width" value="1346" />
-    <option name="height" value="640" />
+    <option name="height" value="643" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -202,34 +199,29 @@
         <subPane>
           <expand>
             <path>
-              <item name="xxx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp-arena-sierra-jugo-final" type="b2602c69:ProjectViewProjectNode" />
               <item name="tp-arena-sierra-jugo-final" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="xxx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp-arena-sierra-jugo-final" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xxx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp-arena-sierra-jugo-final" type="b2602c69:ProjectViewProjectNode" />
               <item name="tp-arena-sierra-jugo-final" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="xxx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp-arena-sierra-jugo-final" type="b2602c69:ProjectViewProjectNode" />
               <item name="tp-arena-sierra-jugo-final" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="xxx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp-arena-sierra-jugo-final" type="b2602c69:ProjectViewProjectNode" />
               <item name="tp-arena-sierra-jugo-final" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="xxx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp-arena-sierra-jugo-final" type="b2602c69:ProjectViewProjectNode" />
               <item name="tp-arena-sierra-jugo-final" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -237,7 +229,7 @@
               <item name="dominio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="xxx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp-arena-sierra-jugo-final" type="b2602c69:ProjectViewProjectNode" />
               <item name="tp-arena-sierra-jugo-final" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -246,7 +238,16 @@
               <item name="Asignaciones" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="xxx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp-arena-sierra-jugo-final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp-arena-sierra-jugo-final" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dominio" type="462c0819:PsiDirectoryNode" />
+              <item name="Criterios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tp-arena-sierra-jugo-final" type="b2602c69:ProjectViewProjectNode" />
               <item name="tp-arena-sierra-jugo-final" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -255,7 +256,7 @@
               <item name="Repositorios" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="xxx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp-arena-sierra-jugo-final" type="b2602c69:ProjectViewProjectNode" />
               <item name="tp-arena-sierra-jugo-final" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -263,7 +264,7 @@
               <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="xxx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp-arena-sierra-jugo-final" type="b2602c69:ProjectViewProjectNode" />
               <item name="tp-arena-sierra-jugo-final" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -272,7 +273,7 @@
               <item name="vm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="xxx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp-arena-sierra-jugo-final" type="b2602c69:ProjectViewProjectNode" />
               <item name="tp-arena-sierra-jugo-final" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -280,17 +281,13 @@
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="windows" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="xxx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -401,36 +398,55 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32852563" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.24038461" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.23937008" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32852563" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21474358" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27083334" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25826773" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32852563" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31770045" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.41185898" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31259152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.14583333" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Designer" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27083334" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32852563" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32852563" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21474358" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.14583333" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.41185898" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.24038461" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31770045" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -486,6 +502,8 @@
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#539#551#0" expanded="true" />
+            <element signature="e#1426#1438#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -498,10 +516,12 @@
             <element signature="imports" expanded="true" />
             <element signature="e#616#617#0" expanded="true" />
             <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -566,10 +586,12 @@
             <element signature="imports" expanded="true" />
             <element signature="e#616#617#0" expanded="true" />
             <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -617,10 +639,12 @@
             <element signature="imports" expanded="true" />
             <element signature="e#616#617#0" expanded="true" />
             <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -674,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioNumericas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
@@ -695,27 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NotasAplicacion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioAsignacionesConceptuales.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioConceptuales.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/uqbar-project/arena-jface/3.6.1/arena-jface-3.6.1.jar!/org/uqbar/arena/jface/app/JFaceApplicationBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -723,24 +719,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/vm/AsignacionesUsuarioViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/vm/AsignacionesUsuarioViewModel.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/uqbar-project/arena-core/3.6.1/arena-core-3.6.1.jar!/org/uqbar/lacar/ui/model/Action.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioAsignacionesNumericas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -751,67 +734,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/Asignacion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/NotasAplicacion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesConceptuales.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioAsignacionesConceptuales.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesNumericas.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioAsignacionesNumericas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/vm/UnViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="37" column="66" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/UnaView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="42" column="71" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/vm/EditarDatos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
+        <state relative-caret-position="267">
           <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -820,17 +766,27 @@
             <element signature="e#838#839#0" expanded="true" />
             <element signature="e#874#875#0" expanded="true" />
             <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
             <element signature="e#985#986#0" expanded="true" />
             <element signature="e#1014#1015#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioUsuarios.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/vm/UnViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+        <state relative-caret-position="289">
+          <caret line="17" column="7" selection-start-line="17" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/UnaView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="67" column="2" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -839,17 +795,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/DatosUsuario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        <state relative-caret-position="17">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/windows/AsignacionesUsuarioView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        <state relative-caret-position="117">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesConceptuales.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/AsignacionesNumericas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Asignaciones/Asignacion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/vm/EditarDatos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioNumericas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Criterios/CriterioConceptuales.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominio/Repositorios/RepositorioUsuarios.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#539#551#0" expanded="true" />
+            <element signature="e#1426#1438#0" expanded="true" />
           </folding>
         </state>
       </provider>

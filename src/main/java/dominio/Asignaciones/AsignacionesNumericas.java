@@ -42,10 +42,6 @@ public class AsignacionesNumericas extends Asignacion {
         return String.valueOf( notas.get(notas.size() -1));
     }
 
-    public boolean estaAprobado () {
-
-    return criterio.cumpleCriterio();
-    }
 
     public ArrayList<Integer> obtenerListaDeNotas() {
         return notas;

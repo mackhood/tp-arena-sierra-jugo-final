@@ -36,7 +36,8 @@ public class AsignacionesUsuarioView extends SimpleWindow<EditarDatos> {
 
         new Label(form).setText("Ultima Nota");
         new Label(form).bindValueToProperty("asignacionSeleccionada.ultimaNota");
-
+        new Label (form).setText("Estado");
+        new Label (form).bindValueToProperty("estado");
 
 
     }

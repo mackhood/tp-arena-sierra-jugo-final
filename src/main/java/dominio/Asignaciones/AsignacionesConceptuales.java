@@ -27,10 +27,6 @@ public class AsignacionesConceptuales extends Asignacion {
         return notas.get(notas.size() -1);
     }
 
-    public boolean estaAprobado () {
-
-     return criterio.cumpleCriterio();
-    }
 
 
     public void agregarNotaConceptual(String b) {

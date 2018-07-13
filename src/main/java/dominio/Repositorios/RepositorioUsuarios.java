@@ -16,7 +16,7 @@ public class RepositorioUsuarios {
 
   List<Usuario> lista;
 
-    public  List<Usuario> obtenerUsuario() {
+    public  List<Usuario> obtenerUsuarios() {
 
 
 
@@ -43,6 +43,7 @@ public class RepositorioUsuarios {
 
      lista = new ArrayList<>();
      lista.add(fernando );
+        criterioTPDiseño.setAsignacionConceptual(tpDiseño);
 
 
     ArrayList<Asignacion> asignacionGerman = new ArrayList<Asignacion>();
@@ -56,10 +57,12 @@ public class RepositorioUsuarios {
     asignacionGerman.add(tpDiseño);
     asignacionGerman.add(parcialAnalisis);
 
+    criterioParcialAnalisis.setAsignacionesNumericas(parcialAnalisis);
     Usuario german = new Usuario  ("German Jugo","mackhood",asignacionGerman);
     lista.add(german);
     return lista;
     }
+
 
 }
 

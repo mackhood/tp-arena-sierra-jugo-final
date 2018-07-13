@@ -59,7 +59,7 @@ public class UnaView extends MainWindow<UnViewModel> {
 
 
         new Button(mainPanel).setCaption("Modificar Datos Estudiante").onClick( this::modificarDatos);
-        new Button(mainPanel).setCaption("Ver AsignacionNumerica").onClick(this::asignaciones);
+        new Button(mainPanel).setCaption("Ver Asignacion").onClick(this::asignaciones);
     }
 
 

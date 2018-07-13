@@ -15,4 +15,11 @@ public class CriterioConceptuales implements Criterio {
                 return asignacionesConceptuales.obtenerListaDeNotas().stream().filter(a-> a.equals("M")).count()>1;
 
     }
+
+ public void  setAsignacionConceptual (AsignacionesConceptuales asignacion) {
+
+        this.asignacionesConceptuales=asignacion;
+
+    }
+
 }

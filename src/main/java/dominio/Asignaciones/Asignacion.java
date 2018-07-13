@@ -25,4 +25,11 @@ public String getUltimaNota(){
         return  ultimaNota;
     }
 
+    public boolean estaAprobado () {
+
+        return criterio.cumpleCriterio();
+    }
+
+
+
 }

@@ -46,4 +46,18 @@ public class EditarDatos {
         this.asignacionSeleccionada=unaAsignacion;
     }
 
+
+    public String getEstado () {
+
+        if(asignacionSeleccionada.estaAprobado()) {
+            return "aprobado";
+        }
+        else {
+
+            return "desaprobado";
+        }
+    }
+
+
+
 }
