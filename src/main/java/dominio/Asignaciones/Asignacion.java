@@ -10,7 +10,7 @@ public abstract  class Asignacion {
 public String descripcion;
 public Criterio criterio;
 public String ultimaNota;
-
+public String estado;
 
 public Asignacion (String descripcion, Criterio criterio) {
 
@@ -18,18 +18,29 @@ public Asignacion (String descripcion, Criterio criterio) {
     this.criterio=criterio;
 
 }
-public String getDescripcion(){
+    public String getDescripcion(){
     return  descripcion;
 }
-public String getUltimaNota(){
+
+    public String getUltimaNota(){
         return  ultimaNota;
     }
 
     public boolean estaAprobado () {
-
         return criterio.cumpleCriterio();
     }
 
 
+    public void actualizarEstado(){
+        this.estado = "desaprobado";
+        if (this.estaAprobado()){
+               this.estado = "aprobado";
+        }
+    }
 
+
+    public String getEstado(){
+        this.actualizarEstado();
+        return estado;
+    }
 }

@@ -22,15 +22,13 @@ public class AsignacionesConceptuales extends Asignacion {
  }
 
 
-    public String ultimaNota () {
+    public String getUltimaNota () {
 
         return notas.get(notas.size() -1);
     }
 
+    public void agregarNotaConceptual(String nota) {
+     notas.add(nota);
 
-
-    public void agregarNotaConceptual(String b) {
-     notas.add(b);
-     ultimaNota =b;
     }
 }

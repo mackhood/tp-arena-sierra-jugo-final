@@ -12,7 +12,7 @@ public class CriterioConceptuales implements Criterio {
 
     public boolean cumpleCriterio() {
 
-                return asignacionesConceptuales.obtenerListaDeNotas().stream().filter(a-> a.equals("M")).count()>1;
+                return  asignacionesConceptuales.obtenerListaDeNotas().stream().filter(a-> a.equals("M")).count()== 0;
 
     }
 

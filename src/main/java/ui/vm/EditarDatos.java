@@ -10,6 +10,7 @@ public class EditarDatos {
     public Asignacion asignacionSeleccionada;
     public String nombre;
     public String github;
+    public String estado;
 
 
     public EditarDatos (Usuario usuario ){
@@ -40,23 +41,15 @@ public class EditarDatos {
     }
 
     public Asignacion getAsignacionSeleccionada() {
+
         return asignacionSeleccionada;
     }
+
     public void setAsignacionSeleccionada(Asignacion unaAsignacion) {
+
         this.asignacionSeleccionada=unaAsignacion;
     }
 
-
-    public String getEstado () {
-
-        if(asignacionSeleccionada.estaAprobado()) {
-            return "aprobado";
-        }
-        else {
-
-            return "desaprobado";
-        }
-    }
 
 
 

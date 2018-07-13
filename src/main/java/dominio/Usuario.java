@@ -15,6 +15,7 @@ public class Usuario {
     private List<Asignacion> asignaciones = new ArrayList<>();
 
 
+
     public Usuario(String nombre, String github, List<Asignacion> asignaciones) {
 
         this.nombre = nombre;
