@@ -48,7 +48,7 @@ public class UnaViewPrincipal extends MainWindow<UnViewModel> {
     }
 
 
-    public void modificarDatos(){
+   public void modificarDatos(){
         if (this.getModelObject().getUsuarioSeleccionado()!= null){
             SimpleWindow<?> modificarDatos= new DatosUsuarioView(this, this.getModelObject().getUsuarioSeleccionado());
             modificarDatos.open();

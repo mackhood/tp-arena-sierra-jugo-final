@@ -1,4 +1,4 @@
-package ui.windows;
+ package ui.windows;
 
 import org.uqbar.arena.layout.ColumnLayout;
 import org.uqbar.arena.widgets.*;
