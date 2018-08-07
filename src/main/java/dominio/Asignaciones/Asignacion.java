@@ -29,6 +29,12 @@ public Asignacion (String descripcion, Criterio criterio) {
     public boolean estaAprobado () {
         return criterio.cumpleCriterio();
     }
+    public String getEstado(){
+        this.actualizarEstado();
+        return estado;
+    }
+
+
 
 
     public void actualizarEstado(){
@@ -39,10 +45,6 @@ public Asignacion (String descripcion, Criterio criterio) {
 
     }
 
-    public String getEstado(){
-        this.actualizarEstado();
-        return estado;
-    }
 
 
 }

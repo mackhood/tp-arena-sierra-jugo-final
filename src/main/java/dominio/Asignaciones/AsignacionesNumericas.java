@@ -3,11 +3,12 @@ package dominio.Asignaciones;
 import dominio.Criterios.Criterio;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class AsignacionesNumericas extends Asignacion {
 
 
-    private ArrayList<Integer> notas = new ArrayList<Integer>();
+    private List<Integer> notas = new ArrayList<Integer>();
 
 
     public void agregarNotas(Integer unaNotas){
@@ -20,7 +21,7 @@ public class AsignacionesNumericas extends Asignacion {
 
     }
 
-    public  ArrayList<Integer> obtenerLista () {
+    public  List<Integer> obtenerLista () {
 
         return notas;
     }
@@ -38,7 +39,7 @@ public class AsignacionesNumericas extends Asignacion {
     }
 
 
-    public ArrayList<Integer> obtenerListaDeNotas() {
+    public List<Integer> obtenerListaDeNotas() {
         return notas;
     }
 }

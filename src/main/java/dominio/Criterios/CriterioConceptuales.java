@@ -3,6 +3,7 @@ package dominio.Criterios;
 import dominio.Asignaciones.AsignacionesConceptuales;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class CriterioConceptuales implements   Criterio {
 
@@ -14,7 +15,7 @@ public class CriterioConceptuales implements   Criterio {
                 return asignacionesConceptuales.obtenerListaDeNotas().stream().filter(a-> a.equals("M")).count()== 0;
 
     }
-    public ArrayList<String> obtenerListaDenotas(){
+    public List<String> obtenerListaDenotas(){
                 return asignacionesConceptuales.obtenerListaDeNotas();
     }
 
