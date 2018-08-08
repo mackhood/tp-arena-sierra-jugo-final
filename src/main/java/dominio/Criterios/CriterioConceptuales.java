@@ -7,21 +7,21 @@ import java.util.List;
 
 public class CriterioConceptuales implements   Criterio {
 
-    AsignacionesConceptuales asignacionesConceptuales;
+    AsignacionesConceptuales asignacionConceptual;
 
 
     public boolean cumpleCriterio() {
 
-                return asignacionesConceptuales.obtenerListaDeNotas().stream().filter(a-> a.equals("M")).count()== 0;
+                return asignacionConceptual.obtenerListaDeNotas().stream().filter(a-> a.equals("M")).count()== 0;
 
     }
     public List<String> obtenerListaDenotas(){
-                return asignacionesConceptuales.obtenerListaDeNotas();
+                return asignacionConceptual.obtenerListaDeNotas();
     }
 
     public void  setAsignacionConceptual (AsignacionesConceptuales asignacion) {
 
-        this.asignacionesConceptuales=asignacion;
+        this.asignacionConceptual=asignacion;
 
     }
 
