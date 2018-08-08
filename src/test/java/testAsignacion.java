@@ -60,7 +60,6 @@ public class testAsignacion {
 
     public void actualizarEstadoConceptual() {
 
-        asignacionesConceptuales.actualizarEstado();
         assertEquals("Aprobado",asignacionesConceptuales.getEstado());
 
     }
@@ -71,7 +70,6 @@ public class testAsignacion {
 
     public void actualizarEstadoNumerica() {
 
-        asignacionesNumericas.actualizarEstado();
         assertEquals("Aprobado",asignacionesNumericas.getEstado());
 
     }

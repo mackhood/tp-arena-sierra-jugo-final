@@ -21,12 +21,7 @@ public class testRepositorioUsuarios
     @Before
 
     public void setup () {
-
-
         repositorioUsuarios = new RepositorioUsuarios();
-
-
-
     }
 
 
