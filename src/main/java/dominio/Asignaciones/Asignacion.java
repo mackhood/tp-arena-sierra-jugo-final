@@ -28,9 +28,8 @@ public Asignacion (String descripcion, Criterio criterio) {
     return  descripcion;
 }
 
-    public String getUltimaNota(){
-        return  ultimaNota;
-    }
+    public abstract String getUltimaNota();
+
 
     public String getEstado(){
         String estado = "Desaprobado";
