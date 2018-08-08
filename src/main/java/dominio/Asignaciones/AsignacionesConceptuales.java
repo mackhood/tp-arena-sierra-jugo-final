@@ -18,19 +18,9 @@ public class AsignacionesConceptuales extends Asignacion {
 
 
  }
-
- public  List<String> obtenerListaDeNotas () {
+    public  List<String> obtenerListaDeNotas () {
     return notas;
  }
-
-
-    public String getUltimaNota () {
-
-        return notas.get(notas.size() -1);
-    }
-
-    public void agregarNotaConceptual(String nota) {
-     notas.add(nota);
-
-    }
+    public String getUltimaNota () {return notas.get(notas.size() -1);    }
+    public void agregarNotaConceptual(String nota) { notas.add(nota);}
 }

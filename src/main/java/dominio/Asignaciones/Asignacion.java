@@ -39,9 +39,4 @@ public Asignacion (String descripcion, Criterio criterio) {
         return estado;
     }
 
-
-    public Criterio getCriterio()
-    {
-        return criterio;
-    };
 }

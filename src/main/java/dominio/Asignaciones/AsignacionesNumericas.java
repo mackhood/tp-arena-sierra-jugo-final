@@ -27,7 +27,6 @@ public class AsignacionesNumericas extends Asignacion {
     }
 
 
-
     public String getUltimaNota () {
 
         return String.valueOf( notas.get(notas.size() -1));

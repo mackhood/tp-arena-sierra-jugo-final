@@ -47,10 +47,10 @@ public class RepositorioUsuarios {
 
 
     laboratorio.agregarNotaConceptual("B");
-    //laboratorio.agregarNotaConceptual("M");
+
 
     parcialAnalisis.agregarNotas(4);
-    //parcialAnalisis.agregarNotas(3);
+
 
     criterioDiseño.setAsignacionesNumericas(parcialDiseño);
     criterioLaboratorio.setAsignacionConceptual(laboratorio);
