@@ -23,9 +23,7 @@ public class Usuario {
         this.asignaciones = asignaciones;
     }
 
-    public List<Asignacion>obtenerAsignaciones() {
-        return asignaciones;
-    }
+
 
     public String nombre() {
         return nombre;
