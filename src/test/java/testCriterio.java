@@ -66,6 +66,15 @@ public class testCriterio {
 
     }
 
+    @Test
+    public void asignacionMockConceptual () {
+
+
+        assertTrue(unCriterioNumerico.cumpleCriterio());
+
+    }
+
+
 
 
 

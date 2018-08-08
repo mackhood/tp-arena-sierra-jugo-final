@@ -1,6 +1,7 @@
 package dominio.Asignaciones;
 
 import dominio.Criterios.Criterio;
+import dominio.Criterios.CriterioConceptuales;
 import org.uqbar.commons.utils.Observable;
 
 @Observable
@@ -18,6 +19,17 @@ public Asignacion (String descripcion, Criterio criterio) {
     this.criterio = criterio;
 
 }
+    public void actualizarEstado(){
+        this.estado = "Desaprobado";
+        if(criterio.cumpleCriterio()){
+            estado = "Aprobado";
+        }
+    }
+
+    public boolean estaAprobado () {
+        return criterio.cumpleCriterio();
+    }
+
     public String getDescripcion(){
     return  descripcion;
 }
@@ -26,25 +38,14 @@ public Asignacion (String descripcion, Criterio criterio) {
         return  ultimaNota;
     }
 
-    public boolean estaAprobado () {
-        return criterio.cumpleCriterio();
-    }
     public String getEstado(){
         this.actualizarEstado();
         return estado;
     }
 
 
-
-
-    public void actualizarEstado(){
-        this.estado = "Desaprobado";
-        if(criterio.cumpleCriterio()){
-            estado = "Aprobado";
-        }
-
-    }
-
-
-
+    public Criterio getCriterio()
+    {
+        return criterio;
+    };
 }

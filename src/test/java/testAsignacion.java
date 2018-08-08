@@ -30,10 +30,10 @@ public class testAsignacion {
 
     public void setUp() {
 
-     asignacionesConceptuales = new AsignacionesConceptuales("pruebaConceptual",mockCriterioConceptualesVerdadero);
-     asignacionesNumericas=new AsignacionesNumericas("pruebaNumerica",mockCriterioNumericoVerdadero);
-     mockCriterioConceptualesVerdadero = mock(CriterioConceptuales.class);
-     mockCriterioNumericoVerdadero = mock(CriterioNumericas.class);
+        mockCriterioConceptualesVerdadero = mock(CriterioConceptuales.class);
+        mockCriterioNumericoVerdadero = mock(CriterioNumericas.class);
+        asignacionesNumericas=new AsignacionesNumericas("pruebaNumerica",mockCriterioNumericoVerdadero);
+        asignacionesConceptuales = new AsignacionesConceptuales("pruebaConceptual",mockCriterioConceptualesVerdadero);
 
         when(mockCriterioConceptualesVerdadero.cumpleCriterio()).thenReturn( true);
         when(mockCriterioNumericoVerdadero.cumpleCriterio()).thenReturn( true);    }
