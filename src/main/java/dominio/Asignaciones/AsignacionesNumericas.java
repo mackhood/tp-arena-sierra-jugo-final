@@ -38,6 +38,15 @@ public class AsignacionesNumericas extends Asignacion {
         return String.valueOf( notas.get(notas.size() -1));
     }
 
+    public  void setearUltimaNota ( int nota){
+
+        notas.add(nota);
+    }
+
+    public Integer getUltimaNotaEnInt (){
+
+        return notas.get(notas.size()-1);
+    }
 
     public List<Integer> obtenerListaDeNotas() {
         return notas;
