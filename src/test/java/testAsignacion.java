@@ -18,12 +18,15 @@ public class testAsignacion {
 
     private String ultimaNota ="R";
     private  Integer ultimaNotaNumero = 6;
-    private AsignacionesConceptuales asignacionesConceptuales;
-    private AsignacionesNumericas asignacionesNumericas;
+    private AsignacionesConceptuales asignacionesConceptualesVerdaderas;
+    private AsignacionesNumericas asignacionesNumericasVerdaderas;
+    private AsignacionesConceptuales asignacionesConceptualesFalsas;
+    private AsignacionesNumericas asignacionesNumericasFalsas;
+
     private CriterioNumericas mockCriterioNumericoVerdadero ;
-  //  private CriterioNumericas mockCriterioNumericoFalso ;
+    private CriterioNumericas mockCriterioNumericoFalso ;
     private CriterioConceptuales mockCriterioConceptualesVerdadero ;
-   // private CriterioConceptuales mockCriterioConceptualesFalso ;
+    private CriterioConceptuales mockCriterioConceptualesFalso ;
 
 
     @Before
@@ -32,26 +35,42 @@ public class testAsignacion {
 
         mockCriterioConceptualesVerdadero = mock(CriterioConceptuales.class);
         mockCriterioNumericoVerdadero = mock(CriterioNumericas.class);
-        asignacionesNumericas=new AsignacionesNumericas("pruebaNumerica",mockCriterioNumericoVerdadero);
-        asignacionesConceptuales = new AsignacionesConceptuales("pruebaConceptual",mockCriterioConceptualesVerdadero);
+
+        mockCriterioConceptualesFalso = mock(CriterioConceptuales.class);
+        mockCriterioNumericoFalso = mock(CriterioNumericas.class);
 
         when(mockCriterioConceptualesVerdadero.cumpleCriterio()).thenReturn( true);
-        when(mockCriterioNumericoVerdadero.cumpleCriterio()).thenReturn( true);    }
+        when(mockCriterioNumericoVerdadero.cumpleCriterio()).thenReturn( true);
+
+        when(mockCriterioConceptualesFalso.cumpleCriterio()).thenReturn( false);
+        when(mockCriterioNumericoFalso.cumpleCriterio()).thenReturn( false);
+
+
+        asignacionesNumericasVerdaderas=new AsignacionesNumericas("pruebaNumerica",mockCriterioNumericoVerdadero);
+        asignacionesConceptualesVerdaderas = new AsignacionesConceptuales("pruebaConceptual",mockCriterioConceptualesVerdadero);
+
+
+        asignacionesNumericasFalsas=new AsignacionesNumericas("pruebaNumerica",mockCriterioNumericoFalso);
+        asignacionesConceptualesFalsas = new AsignacionesConceptuales("pruebaConceptual",mockCriterioConceptualesFalso);
+
+
+
+
+
+    }
 
 
     @Test
 
     public  void estaAprobadoConceptual () {
 
-        assertTrue(asignacionesConceptuales.estaAprobado());
-
-
-
+       assertTrue(asignacionesConceptualesVerdaderas.estaAprobado());
     }
+
     @Test
 
      public void estaAprobadoNumerico () {
-        assertTrue(asignacionesNumericas.estaAprobado());
+        assertTrue(asignacionesNumericasVerdaderas.estaAprobado());
     }
 
 
@@ -61,7 +80,7 @@ public class testAsignacion {
     public void actualizarEstadoConceptual() {
 
 
-        assertEquals("Aprobado",asignacionesConceptuales.getEstado());
+        assertEquals("Aprobado",asignacionesConceptualesVerdaderas.getEstado());
 
     }
 
@@ -72,7 +91,43 @@ public class testAsignacion {
     public void actualizarEstadoNumerica() {
 
 
-        assertEquals("Aprobado",asignacionesNumericas.getEstado());
+        assertEquals("Aprobado",asignacionesNumericasVerdaderas.getEstado());
+
+    }
+
+
+
+    @Test
+
+    public  void estaDesaprobadoConceptual () {
+
+        assertFalse(asignacionesConceptualesFalsas.estaAprobado());
+    }
+
+    @Test
+
+    public void estaDesaprobadoNumerico () {
+        assertFalse(asignacionesNumericasFalsas.estaAprobado());
+    }
+
+
+
+    @Test
+
+    public void actualizarEstadoConceptuaDesaprobado() {
+
+
+        assertEquals("Desaprobado",asignacionesConceptualesFalsas.getEstado());
+
+    }
+
+
+
+    @Test
+
+    public void actualizarEstadoNumericaDesaprobado() {
+
+        assertEquals("Desaprobado",asignacionesNumericasFalsas.getEstado());
 
     }
 
@@ -82,8 +137,8 @@ public class testAsignacion {
     @Test
     public void ultimaNotaConceptual () {
 
-        asignacionesConceptuales.agregarNotaConceptual(ultimaNota);
-        assertEquals(ultimaNota,asignacionesConceptuales.getUltimaNota());
+        asignacionesConceptualesVerdaderas.agregarNotaConceptual(ultimaNota);
+        assertEquals(ultimaNota,asignacionesConceptualesVerdaderas.getUltimaNota());
 
     }
 
@@ -93,8 +148,8 @@ public class testAsignacion {
     public void ultimaNotaNumericas () {
 
 
-    asignacionesNumericas.setearUltimaNota(ultimaNotaNumero);
-    assertEquals(ultimaNotaNumero,asignacionesNumericas.getUltimaNotaEnInt());
+    asignacionesNumericasVerdaderas.setearUltimaNota(ultimaNotaNumero);
+    assertEquals(ultimaNotaNumero,asignacionesNumericasVerdaderas.getUltimaNotaEnInt());
     }
 
 

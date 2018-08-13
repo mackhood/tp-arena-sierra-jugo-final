@@ -34,8 +34,8 @@ public class testCriterio {
 
      asignacionMockConceptual = mock(AsignacionesConceptuales.class);
      asignacionMockNumericas = mock(AsignacionesNumericas.class);
-    unCriterioConceptual = new CriterioConceptuales();
-    unCriterioNumerico = new CriterioNumericas();
+     unCriterioConceptual = new CriterioConceptuales();
+     unCriterioNumerico = new CriterioNumericas();
      notasNumericas.add(8);
      notasNumericas.add(4);
      notasNumericas.add(6);
@@ -53,11 +53,25 @@ public class testCriterio {
 
 
     @Test
-    public void cumpleCriterioConceptual () {
+    public void noCumpleCriterioConceptual () {
 
+        // Posee al menos una "M" en sus notas conceptuales.
         assertFalse(unCriterioConceptual.cumpleCriterio());
     }
 
+    @Test
+    public void cumpleCriterioConceptual() {
+
+        //No posee ninguna "M" en sus notas conceptuales.
+
+        notasConceptuales.clear();
+        notasConceptuales.add("B");
+        notasConceptuales.add("R");
+        when(asignacionMockConceptual.obtenerListaDeNotas()).thenReturn(notasConceptuales);
+        unCriterioConceptual.setAsignacionConceptual(asignacionMockConceptual);
+        assertTrue(unCriterioConceptual.cumpleCriterio());
+
+    }
 
     @Test
     public void cumpleCriterioNumerico () {
@@ -67,20 +81,16 @@ public class testCriterio {
     }
 
     @Test
-    public void asignacionMockConceptual () {
+    public void noCumpleCriterioNumerico () {
 
+        //La Cantidad de notas numericas mayores a 6 es 0;
 
-        assertTrue(unCriterioNumerico.cumpleCriterio());
+        Integer notasNumericas = 5;
+        List<Integer> listaNotasNumerica = new ArrayList<>();
+        listaNotasNumerica.add(notasNumericas);
+        when(asignacionMockNumericas.obtenerListaDeNotas()).thenReturn(listaNotasNumerica);
+        unCriterioNumerico.setAsignacionesNumericas(asignacionMockNumericas);
+        assertFalse(unCriterioNumerico.cumpleCriterio());
 
     }
-
-
-
-
-
-
-
-
-
-
 }
