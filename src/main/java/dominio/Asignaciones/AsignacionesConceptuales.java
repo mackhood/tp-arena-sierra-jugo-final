@@ -1,13 +1,15 @@
 package dominio.Asignaciones;
 
-import dominio.Asignaciones.Asignacion;
 import dominio.Criterios.Criterio;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class AsignacionesConceptuales extends Asignacion {
 
-    private ArrayList<String> notas = new ArrayList<String>();
+    private List<String> notas = new ArrayList<String>() ;
+
+
 
 
  public AsignacionesConceptuales ( String descripcion , Criterio criterio) {
@@ -16,21 +18,9 @@ public class AsignacionesConceptuales extends Asignacion {
 
 
  }
-
- public  ArrayList<String> obtenerListaDeNotas () {
+    public  List<String> obtenerListaDeNotas () {
     return notas;
  }
-
-
-    public String ultimaNota () {
-
-        return notas.get(notas.size() -1);
-    }
-
-    public boolean estaAprobado () {
-
-     return criterio.cumpleCriterio();
-    }
-
-
+    public String getUltimaNota () {return notas.get(notas.size() -1);    }
+    public void agregarNotaConceptual(String nota) { notas.add(nota);}
 }

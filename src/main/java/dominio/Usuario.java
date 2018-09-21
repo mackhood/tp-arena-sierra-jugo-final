@@ -15,6 +15,7 @@ public class Usuario {
     private List<Asignacion> asignaciones = new ArrayList<>();
 
 
+
     public Usuario(String nombre, String github, List<Asignacion> asignaciones) {
 
         this.nombre = nombre;
@@ -22,14 +23,30 @@ public class Usuario {
         this.asignaciones = asignaciones;
     }
 
-    public List<Asignacion>obtenerAsignaciones() {
-        return asignaciones;
-    }
+
 
     public String nombre() {
         return nombre;
     }
-    public  List<Asignacion>  asignacions() {
+
+
+    public  List<Asignacion>  getAsignaciones() {
         return asignaciones;
+    }
+
+    public String getGithub() {
+        return github;
+    }
+
+    public void setGithub(String github) {
+        this.github = github;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre=nombre;
+    }
+
+    public String getNombre() {
+        return nombre;
     }
 }

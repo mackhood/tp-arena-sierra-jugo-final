@@ -1,44 +1,53 @@
 package dominio.Asignaciones;
 
-import com.sun.org.apache.xalan.internal.xsltc.util.IntegerArray;
-import dominio.Asignaciones.Asignacion;
 import dominio.Criterios.Criterio;
-import dominio.Criterios.CriterioNumericas;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.List;
 
 public class AsignacionesNumericas extends Asignacion {
 
 
-    private ArrayList<Integer> notas = new ArrayList<Integer>();
+    private List<Integer> notas = new ArrayList<Integer>();
 
 
+    public void agregarNotas(Integer unaNotas){
+        notas.add(unaNotas);
+        ultimaNota = String.valueOf(unaNotas);
+    }
     public AsignacionesNumericas(String descripcion, Criterio criterio) {
 
         super (descripcion,criterio);
 
     }
 
-    public  ArrayList<Integer> obtenerLista () {
+    public  List<Integer> obtenerLista () {
 
         return notas;
     }
 
 
+    public String getUltimaNota () {
 
-    public int ultimaNota () {
-
-        return notas.get(notas.size() -1);
+        return String.valueOf( notas.get(notas.size() -1));
     }
 
-    public boolean estaAprobado () {
+    public String setUltimaNota () {
 
-    return criterio.cumpleCriterio();
+        return String.valueOf( notas.get(notas.size() -1));
     }
 
-    public ArrayList<Integer> obtenerListaDeNotas() {
+    public  void setearUltimaNota ( int nota){
+
+        notas.add(nota);
+    }
+
+    public Integer getUltimaNotaEnInt (){
+
+        return notas.get(notas.size()-1);
+    }
+
+    public List<Integer> obtenerListaDeNotas() {
         return notas;
     }
 }
